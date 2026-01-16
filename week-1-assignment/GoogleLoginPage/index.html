@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="h-screen flex flex-col bg-neutral-100">
+    <div
+      class="h-[90%] w-full flex items-center justify-center flex-col gap-10"
+    >
+      <div
+        class="rounded-md p-2 border-neutral-300 h-200 w-110 flex flex-col gap-30"
+      >
+        <div class="flex justify-center text-xl mt-5 h-20">
+          <h1 class="font-bold">IIElevenLabs</h1>
+        </div>
+        <div class="text-center flex-1 flex flex-col gap-2 px-6">
+          <h1 class="font-bold text-2xl">Create an account</h1>
+          <div>
+            <div
+              class="w-full h-10 rounded-md border border-neutral-300 flex cursor-pointer hover:bg-neutral-200 transition-color duration-300"
+            >
+              <div class="h-full w-10 flex items-center justify-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  width="25"
+                  height="25"
+                  viewBox="0 0 48 48"
+                  class=""
+                >
+                  <path
+                    fill="#FFC107"
+                    d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"
+                  ></path>
+                  <path
+                    fill="#FF3D00"
+                    d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"
+                  ></path>
+                  <path
+                    fill="#4CAF50"
+                    d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"
+                  ></path>
+                  <path
+                    fill="#1976D2"
+                    d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="flex-1 flex items-center justify-center font-bold">
+                Sign up with Google
+              </div>
+            </div>
+            <hr class="text-neutral-300 my-6" />
+            <div class="flex flex-col items-start mb-4">
+              <label for="email">Email</label>
+              <input
+                type="text"
+                class="border border-neutral-300 w-full h-10 rounded-md px-2"
+                placeholder="Enter your email"
+              />
+            </div>
+            <div class="flex flex-col items-start relative">
+              <label for="password">Password</label>
+              <div class="flex w-full">
+                <input
+                  type="password"
+                  class="border border-neutral-300 w-full h-10 rounded-md px-2"
+                  placeholder="Enter your password"
+                />
+                <div
+                  class="h-10 w-10 flex items-center justify-center absolute right-0"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="currentColor"
+                    class="bi bi-eye"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8M1.173 8a13 13 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5s3.879 1.168 5.168 2.457A13 13 0 0 1 14.828 8q-.086.13-.195.288c-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5s-3.879-1.168-5.168-2.457A13 13 0 0 1 1.172 8z"
+                    />
+                    <path
+                      d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5M4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <button
+              class="bg-neutral-900 w-full py-3 rounded-md font-bold text-white my-5 cursor hover:bg-neutral-600 cursor-pointer transition-color duration-300"
+            >
+              Sign up
+            </button>
+            <span class="text-neutral-500"
+              >Already register?
+              <span class="hover:underline cursor-pointer">Sign in</span></span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="text-neutral-500 pb-5 w-full flex-1 flex items-end justify-center"
+    >
+      By continuing, you agree to our
+      <span class="underline cursor-pointer"> Terms of Service </span>
+      and
+      <span class="underline cursor-pointer"> Privacy Policy </span>
+    </div>
+  </body>
+</html>
