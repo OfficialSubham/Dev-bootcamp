@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Sales</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="min-h-screen h-screen flex flex-col lg:flex-row relative">
+    <!-- Left Side -->
+    <div
+      class="flex-1 bg-neutral-800 p-10 text-white flex flex-col justify-between relative pb-50"
+    >
+      <h1 class="font-bold text-2xl cursor-pointer hover:text-neutral-600">
+        IIElevenLabs
+      </h1>
+      <div class="my-12">
+        <h1 class="text-5xl mb-8">Contact our sales team</h1>
+        <div class="flex flex-col gap-4">
+          <div class="flex gap-2">
+            <span class=""> <img src="./svgs/rocket.svg" alt="" /> </span>
+            Custom pricing and elevatedconcurrency
+          </div>
+          <div class="flex gap-2">
+            <span class=""> <img src="./svgs/shield.svg" alt="" /> </span>
+            Enterprise-grade security including SOC II, GDPR and HIPAA
+            compliance
+          </div>
+          <div class="flex gap-2">
+            <span class=""> <img src="./svgs/enterprise.svg" alt="" /> </span>
+            Enterprise support and SLAs
+          </div>
+        </div>
+      </div>
+      <div class="flex shrink flex-col gap-10 w-full">
+        <h5 class="text-neutral-500">Trusted by 10,000+ leading businesses</h5>
+        <div
+          class="w-full grid grid-cols-2 lg:grid-cols-4 md:grid-cols-3 xl:grid-cols-5 gap-5 place-items-center"
+        >
+          <div class="col-span-1">
+            <img src="./svgs/cisco.svg" alt="" />
+          </div>
+          <div class="col-span-1">
+            <img src="./svgs/telecom.svg" alt="" />
+          </div>
+          <div class="col-span-1">
+            <img src="./svgs/disney.svg" alt="" />
+          </div>
+          <div class="col-span-1">
+            <img src="./svgs/nvdia.svg" alt="" />
+          </div>
+          <div class="col-span-1">
+            <img src="./svgs/salesForce.svg" alt="" />
+          </div>
+        </div>
+        <div class="flex gap-2 hidden md:flex">
+          <div class="flex gap-1 items-start">
+            <img src="./svgs/star.svg" alt="" />
+            <img src="./svgs/star.svg" alt="" />
+            <img src="./svgs/star.svg" alt="" />
+            <img src="./svgs/star.svg" alt="" />
+            <img src="./svgs/star.svg" alt="" />
+          </div>
+          <span class=""> 4.5 stars and 1,059+ reviews </span>
+        </div>
+      </div>
+      <div
+        class="inset-x-0 h-20 bottom-0 hidden lg:block absolute bg-neutral-950"
+      >
+        <h1 class="text-2xl text-center">
+          Don't know how to do the wavy pattern
+        </h1>
+      </div>
+    </div>
+    <!-- Right Side -->
+    <div class="flex-1 flex items-center justify-center p-10">
+      <div class="flex gap-4 flex-col w-120">
+        <div class="flex flex-col gap-2 mb-4">
+          <h1 class="text-3xl">Contact sales form</h1>
+          <span class="text-neutral-500"
+            >Please fill out the form below to get started</span
+          >
+        </div>
+        <div class="flex flex-col gap-2">
+          <label for="siteLink">Company Website</label>
+          <input
+            type="text"
+            placeholder="elevenlabs.io"
+            class="border px-2 h-10 focus:outline-1 rounded-xl border-neutral-200 w-full"
+          />
+        </div>
+        <div class="flex flex-col gap-2">
+          <label for="siteLink">Business Email</label>
+          <input
+            type="text"
+            placeholder="example@elevenlabs.io"
+            class="border h-10 focus:outline-1 rounded-xl border-neutral-200 w-full px-2"
+          />
+        </div>
+        <div class="flex items-center justify-between mt-4">
+          <button
+            class="px-4 font-bold py-2 bg-black/70 text-white rounded-full cursor-not-allowed"
+          >
+            Next
+          </button>
+          <div class="flex gap-4">
+            <span class="w-20 h-1 bg-black rounded-full"></span>
+            <span class="w-20 h-1 bg-neutral-300/70 rounded-full"></span>
+            <span class="w-20 h-1 bg-neutral-300/70 rounded-full"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="absolute w-125 rounded-xl border border-neutral-200 bottom-10 p-4 right-10 bg-white"
+    >
+      <div class="flex items-center justify-between mb-2">
+        <h1 class="font-semibold">We value your privacy</h1>
+        <span class="h-8 w-8 flex justify-center items-center">
+          <img src="./images/icon.png" alt="" />
+        </span>
+      </div>
+      <span class="absolute h-px inset-x-0 bg-neutral-200"></span>
+      <p class="my-4 text-sm">
+        By clicking “Accept All Cookies”, you agree to the storing of cookies on
+        your device to enhance site navigation, analyze site usage, and assist
+        in our marketing efforts. You may click “Customize” to personalize the
+        types of cookies you would like to allow.
+      </p>
+      <span class="absolute h-px inset-x-0 bg-neutral-200"></span>
+      <div class="pt-4 flex justify-between">
+        <button
+          class="font-bold border border-neutral-200 rounded-full px-4 py-2 cursor-pointer"
+        >
+          REJECT ALL
+        </button>
+        <button
+          class="font-bold border border-neutral-200 rounded-full px-4 py-2 cursor-pointer"
+        >
+          CUSTOMIZE
+        </button>
+        <button
+          class="font-bold bg-black text-white rounded-full px-4 py-2 cursor-pointer"
+        >
+          ACCEPT ALL COOKIES
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
